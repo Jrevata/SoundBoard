@@ -13,6 +13,7 @@
 		2AF409E721653D0E004B2EED /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF409E521653D0E004B2EED /* SoundBoard.xcdatamodeld */; };
 		2AF409E921653D0E004B2EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF409E821653D0E004B2EED /* Assets.xcassets */; };
 		2AF409EC21653D0E004B2EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF409EA21653D0E004B2EED /* LaunchScreen.storyboard */; };
+		2AF409F421654135004B2EED /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF409F321654135004B2EED /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2AF409E821653D0E004B2EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF409EB21653D0E004B2EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF409ED21653D0E004B2EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF409F321654135004B2EED /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2AF409EA21653D0E004B2EED /* LaunchScreen.storyboard */,
 				2AF409ED21653D0E004B2EED /* Info.plist */,
 				2AF409E521653D0E004B2EED /* SoundBoard.xcdatamodeld */,
+				2AF409F321654135004B2EED /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF409F421654135004B2EED /* SoundViewController.swift in Sources */,
 				2AF409E721653D0E004B2EED /* SoundBoard.xcdatamodeld in Sources */,
 				2AF409E121653D0E004B2EED /* ViewController.swift in Sources */,
 				2AF409DF21653D0E004B2EED /* AppDelegate.swift in Sources */,
@@ -282,7 +286,7 @@
 				DEVELOPMENT_TEAM = T4RN7Q3TT9;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +301,7 @@
 				DEVELOPMENT_TEAM = T4RN7Q3TT9;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
